@@ -1,0 +1,551 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300&family=Jost:wght@500&display=swap');
+*{
+    box-sizing: border-box;
+}
+html,body{
+    margin: 0px;
+    padding: 0%;  
+}
+body{
+    background-image: url(../../images/pex.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 1400px;
+}
+nav{
+    background-color: rgb(0, 0, 0);
+    margin: 0px;
+    padding: 0%;
+    width: 100%;
+    height: 80px;
+    position: absolute; 
+}
+nav .logo{
+    position: absolute;
+    left: 120px;
+    top: 10px;
+}
+nav .logo h1{
+    color: rgb(229, 229, 229, 1);
+    font-size: 30px;
+    font-weight: 800;
+    font-style: normal;
+    font-family: 'Inter', sans-serif;
+    line-height: 58px;
+    position: absolute;
+    width: 180px;
+    height: 38px;
+    margin: 0%;
+    top: 3px;
+}
+nav .logo h2{
+    color: rgb(56, 209, 252,1);
+    font-size: 30px;
+    font-weight: 800;
+    font-style: normal;
+    font-family: 'Inter', sans-serif;
+    line-height: 63px;
+    position: absolute;
+    width: 155px;
+    height: 46px;
+    margin: 0px;
+    padding: 0%;
+    left: 110px;
+}
+nav .me img{
+    top: 18px;
+    left: 1330px;
+    position: absolute;
+    width: 46px;
+    height: 44px;
+    border-radius: 50%;
+}
+footer{
+    background-color: rgb(0, 0, 0);
+    margin: 0px;
+    padding: 0%;
+    width: 100%;
+    height: 150px;
+    position: absolute;
+    top: 1400px;  
+}
+footer .logo{
+    position: absolute;
+    left: 120px;
+    top: 35px;
+}
+footer .logo h1{
+    color: rgb(229, 229, 229, 1);
+    font-size: 30px;
+    font-weight: 800;
+    font-style: normal;
+    font-family: 'Inter', sans-serif;
+    line-height: 58px;
+    position: absolute;
+    width: 180px;
+    height: 38px;
+    margin: 0%;
+    top: 3px;
+}
+footer .logo h2{
+    color: rgb(56, 209, 252,1);
+    font-size: 30px;
+    font-weight: 800;
+    font-style: normal;
+    font-family: 'Inter', sans-serif;
+    line-height: 63px;
+    position: absolute;
+    width: 155px;
+    height: 46px;
+    margin: 0px;
+    padding: 0%;
+    left: 110px;
+}
+footer .mail{
+    position: absolute;
+    left: 1200px;
+    top: 50px;
+}
+footer .mail i{
+    position: absolute;
+    color: rgb(229, 229, 229, 1);
+    width: 18px;
+    height: 14px;
+    top: 2px;
+    font-size: 14px;
+    text-decoration: none; 
+}
+footer .mail h4{
+    position: absolute;
+    color: rgb(229, 229, 229, 1);
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    width: 170px;
+    height: 20px;
+    left: 23px;
+    margin: 0px;
+    padding: 0px;
+}
+footer .location{
+    position: absolute;
+    left: 1200px;
+    top: 85px;
+}
+footer .location i{
+    position: absolute;
+    color: rgb(229, 229, 229, 1);
+    width: 18px;
+    height: 14px;
+    top: 1px;
+    left: 4px;
+    font-size: 14px;
+    text-decoration: none; 
+}
+footer .location h4{
+    position: absolute;
+    color: rgb(229, 229, 229, 1);
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    width: 170px;
+    height: 20px;
+    left: 23px;
+    margin: 0px;
+    padding: 0px;
+}
+menu{
+    position: absolute;
+    left: 0px;
+    top: 80px;
+    width: 260px;
+    height: 1400px;
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(0, 0, 0);
+}
+menu .my a{
+    position: absolute;
+    width: 231px;
+    height: 69px;
+    left: 150px;
+    top: 130px;
+    justify-items: center;
+    border: 0px;
+    color: rgb(255, 255, 255,1);
+    padding: 0%;
+    text-decoration: none;
+    font-style: normal;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 29px; 
+}
+menu .my i{
+    position: absolute;
+    width: 25px;
+    height: 20px;
+    top: 137px;
+    left: 118px;
+    color: #e5e5e5;
+}
+menu .up{
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.856);
+    width: 180px;
+    height: 49px;
+    left: 80px;
+    top: 184px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    justify-items: center;
+    border: 0px;
+    padding: 0%;
+}
+menu .up i{
+    position: absolute;
+    width: 25px;
+    height: 20px;
+    top: 19px;
+    left: 35px; 
+}
+menu .up a{
+    left: 64px;
+    top: 10px;
+    position: absolute;
+    width: 100px;
+    height: 10px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 29px;
+    text-decoration: none;
+    color: black;
+}
+menu .acc i{
+    position: absolute;
+    width: 25px;
+    height: 20px;
+    top: 262px;
+    left: 116px;
+    color: #e5e5e5;
+}
+menu .acc a{
+    position: absolute;
+    width: 231px;
+    height: 69px;
+    left: 150px;
+    top: 253px;
+    justify-items: center;
+    border: 0px;
+    color: rgb(255, 255, 255,1);
+    padding: 0%;
+    text-decoration: none;
+    font-style: normal;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 29px;
+}
+section{
+    background-color: rgba(0, 0, 0, 0.28);
+    position: absolute;
+    width: 1259px;
+    height: 1400px;
+    left: 260px;
+    top: 80px;
+}
+.box1{
+    position: absolute;
+    width: 1037px;
+    height: 610px;
+    left: 70px;
+    top: 94px;
+    background-color: #d9d9d9;
+}
+.intro{
+    position: absolute;
+    width: 1037px;
+    height: 110px;
+    border-bottom: 1px solid #9A8193;
+}
+.intro h1{
+    left: 81px;
+    top: 17px;
+    width: 188px;
+    height: 32px;
+    color: #9A8193;
+    position: absolute;
+    font-style: normal;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 29px;
+}
+.intro h5{
+    float: right;
+    color: #9A8193;
+    font-style: normal;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+}
+.intro #comp{
+    position: absolute;
+    width: 21px;
+    height: 12.77px;
+    top: 42px;
+    left: 830px;
+}
+.intro #deve{
+    position: absolute;
+    top: 11px;
+    left: 854px;
+    width: 150px;
+    height: 19px;
+}
+.intro #design{
+    position: absolute;
+    width: 21px;
+    height: 14.9px;
+    top: 70px;
+    left: 830px;
+}
+.intro #desi{
+    position: absolute;
+    top: 40px;
+    left: 854px;
+    width: 100px;
+    height: 21px;
+}
+.intro #plus{
+    position: absolute;
+    width: 16px;
+    height: 13.37px;
+    top: 42px;
+    left: 714px;
+}
+.intro #add{
+    position: absolute;
+    top: 11px;
+    left: 736px;
+    width: 80px;
+    height: 23px;
+}
+.task{
+    position: absolute;
+    top: 170px;
+    left: 57px;
+    width: 920px;
+    height: 32px;
+    border: 1px solid #9A8193;
+    display: flex;
+}
+.task .who{
+    width: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.task .who #com{
+    position: absolute;
+    top: 10px;
+    left: 30px;
+}
+.task .who #des{
+    position: absolute;
+    top: 10px;
+    left: 8px;
+}
+.task .text{
+    border-left: 1px solid #9A8193;
+    border-right: 1px solid #9A8193;
+    margin: 0px;
+    width: 790px;
+}
+.task .text p{
+    top: 8px;
+    margin: 0px;
+    position: absolute;
+}
+.task .check{
+    width: 80px;
+}
+.task .check #yes{
+    position: absolute;
+    top: 10px;
+    left: 845px;
+    width: 19.56px;
+    height: 14.49px;
+}
+.task .check #no{
+    position: absolute;
+    top: 10px;
+    left: 865px;
+    width: 19.56px;
+    height: 14.49px;
+}
+.task .check #pen{
+    position: absolute;
+    top: 10px;
+    left: 882px;
+    width: 17px;
+    height: 14px;
+}
+.task .check #delete{
+    position: absolute;
+    top: 10px;
+    left: 902px;
+    width: 17px;
+    height: 14px;
+}
+#two{
+    position: absolute;
+    top: 220px;
+}
+#three{
+    position: absolute;
+    top: 270px;
+}
+#four{
+    position: absolute;
+    top: 320px;
+}
+#five{
+    position: absolute;
+    top: 370px;
+}
+#six{
+    position: absolute;
+    top: 420px;
+}
+#seven{
+    position: absolute;
+    top: 470px;
+}
+#eight{
+    position: absolute;
+    top: 520px;
+}
+.box2{
+    position: absolute;
+    width: 380px;
+    height: 290px;
+    left: 723px;
+    top: 790px;
+    background-color: #e5e5e5;
+    border-radius: 30px;
+}
+.box2 h3{
+    position: absolute;
+    color: #63495b;
+    font-style: normal;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+}
+.box2 input{
+     background-color: #d9d9d9;
+     border: none;
+     width: 180px;
+     height: 30px;
+}
+.box2 #team h3{
+    position: absolute;
+    left: 40px;
+    top: 40px;
+    margin: 0px;
+}
+.box2 #team input{
+    position: absolute;
+    float: right;
+    top: 40px;
+    left: 150px;
+}
+.box2 #task h3{
+    position: absolute;
+    left: 40px;
+    top: 101px;
+    margin: 0px;
+}
+.box2 #task input{
+    position: absolute;
+    float: right;
+    top: 80px;
+    left: 150px;
+    height: 70px;
+}
+.box2 #date h3{
+    position: absolute;
+    left: 40px;
+    top: 172px;
+    margin: 0px;
+}
+.box2 #date input{
+    position: absolute;
+    float: right;
+    top: 170px;
+    left: 150px;
+}
+.box2 button{
+    position: absolute;
+    background-color: rgb(195, 160, 185,1);
+    width: 100px;
+    height: 35px;
+    left: 150px;
+    top: 228px;
+    border-radius: 25px;
+    justify-items: center;
+    border: 0px;
+    color: rgb(229, 229, 229,1);
+    font-style: normal;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    line-height: 29px;
+    padding: 0%;
+    color: rgb(229, 229, 229, 1);
+    font-size: 17px;
+    text-decoration: none;
+}
+
+
+.box3{
+    position: absolute;
+    width: 370px;
+    height: 120px;
+    left: 180px;
+    top: 830px;
+    background-color: #9A8193;
+    border-radius: 90px;
+}
+.box3 h2{
+    position: absolute;
+    width: 166px;
+    height: 78px;
+    left: 160px;
+    top: 17px;
+    font-family: 'Jost', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 43px;
+    margin: 0px;
+}
+.box3 input{
+    position: absolute;
+    background-color: rgb(174, 159, 159);
+    width: 80px;
+    height: 50px;
+    left: 55px;
+    top: 35px;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 30px;
+}

@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300&display=swap');
+*{
+    box-sizing: border-box;
+}
+html,body{
+    margin: 0px;
+    padding: 0%;  
+}
+body{
+    background-image: url(../images/pex.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 1100px;
+}
+nav{
+    background-color: rgb(0, 0, 0);
+    margin: 0px;
+    padding: 0%;
+    width: 100%;
+    height: 80px;
+    position: absolute; 
+}
+nav .logo{
+    position: absolute;
+    left: 120px;
+    top: 10px;
+}
+nav .logo h1{
+    color: rgb(229, 229, 229, 1);
+    font-size: 30px;
+    font-weight: 800;
+    font-style: normal;
+    font-family: 'Inter', sans-serif;
+    line-height: 58px;
+    position: absolute;
+    width: 180px;
+    height: 38px;
+    margin: 0%;
+    top: 3px;
+}
+nav .logo h2{
+    color: rgb(56, 209, 252,1);
+    font-size: 30px;
+    font-weight: 800;
+    font-style: normal;
+    font-family: 'Inter', sans-serif;
+    line-height: 63px;
+    position: absolute;
+    width: 155px;
+    height: 46px;
+    margin: 0px;
+    padding: 0%;
+    left: 110px;
+}
+nav .me img{
+    top: 18px;
+    left: 1330px;
+    position: absolute;
+    width: 46px;
+    height: 44px;
+    border-radius: 50%;
+}
+
+footer{
+    background-color: rgb(0, 0, 0);
+    margin: 0px;
+    padding: 0%;
+    width: 100%;
+    height: 150px;
+    position: absolute;
+    top: 1100px;  
+}
+footer .logo{
+    position: absolute;
+    left: 120px;
+    top: 35px;
+}
+footer .logo h1{
+    color: rgb(229, 229, 229, 1);
+    font-size: 30px;
+    font-weight: 800;
+    font-style: normal;
+    font-family: 'Inter', sans-serif;
+    line-height: 58px;
+    position: absolute;
+    width: 180px;
+    height: 38px;
+    margin: 0%;
+    top: 3px;
+}
+footer .logo h2{
+    color: rgb(56, 209, 252,1);
+    font-size: 30px;
+    font-weight: 800;
+    font-style: normal;
+    font-family: 'Inter', sans-serif;
+    line-height: 63px;
+    position: absolute;
+    width: 155px;
+    height: 46px;
+    margin: 0px;
+    padding: 0%;
+    left: 110px;
+}
+footer .mail{
+    position: absolute;
+    left: 1200px;
+    top: 50px;
+}
+footer .mail i{
+    position: absolute;
+    color: rgb(229, 229, 229, 1);
+    width: 18px;
+    height: 14px;
+    top: 2px;
+    font-size: 14px;
+    text-decoration: none; 
+}
+footer .mail h4{
+    position: absolute;
+    color: rgb(229, 229, 229, 1);
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    width: 170px;
+    height: 20px;
+    left: 23px;
+    margin: 0px;
+    padding: 0px;
+}
+footer .location{
+    position: absolute;
+    left: 1200px;
+    top: 85px;
+}
+footer .location i{
+    position: absolute;
+    color: rgb(229, 229, 229, 1);
+    width: 18px;
+    height: 14px;
+    top: 1px;
+    left: 4px;
+    font-size: 14px;
+    text-decoration: none; 
+}
+footer .location h4{
+    position: absolute;
+    color: rgb(229, 229, 229, 1);
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    width: 170px;
+    height: 20px;
+    left: 23px;
+    margin: 0px;
+    padding: 0px;
+}
+menu{
+    position: absolute;
+    left: 0px;
+    top: 80px;
+    width: 260px;
+    height: 1100px;
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(0, 0, 0);
+}
+menu .my a{
+    position: absolute;
+    width: 231px;
+    height: 69px;
+    left: 148px;
+    top: 130px;
+    justify-items: center;
+    border: 0px;
+    color: rgb(255, 255, 255,1);
+    padding: 0%;
+    text-decoration: none;
+    font-style: normal;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 29px; 
+}
+menu .my i{
+    position: absolute;
+    width: 25px;
+    height: 20px;
+    top: 137px;
+    left: 118px;
+    color: #e5e5e5;
+}
+menu .up i{
+    position: absolute;
+    width: 27.6px;
+    height: 26px;
+    top: 196px;
+    left: 120px;
+    color: #e5e5e5;
+}
+menu .up a{
+    position: absolute;
+    width: 231px;
+    height: 69px;
+    left: 150px;
+    top: 188px;
+    justify-items: center;
+    border: 0px;
+    color: rgb(255, 255, 255,1);
+    padding: 0%;
+    text-decoration: none;
+    font-style: normal;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 29px; 
+}
+menu .acc{
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.856);
+    width: 180px;
+    height: 49px;
+    left: 80px;
+    top: 246px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    justify-items: center;
+    border: 0px;
+    padding: 0%; 
+}
+menu .acc i{
+    position: absolute;
+    width: 25px;
+    height: 20px;
+    top: 19px;
+    left: 35px; 
+}
+menu .acc a{
+    left: 64px;
+    top: 10px;
+    position: absolute;
+    width: 100px;
+    height: 10px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 29px;
+    text-decoration: none;
+    color: black; 
+}
+section{
+    background-color: rgba(0, 0, 0, 0.28);
+    position: absolute;
+    width: 1259px;
+    height: 1100px;
+    left: 260px;
+    top: 80px;
+}
+table{
+    position: absolute;
+    width: 960px;
+    height: 450px;
+    top: 240px;
+    left: 150px;
+    background-color: #e5e5e5;
+}
+table tr th{
+    background-color: #9A8193;
+    justify-content: center;
+}
+th,td{
+    border-collapse: collapse;
+    text-align: center;
+}
+.boxx{
+    width: 352px;
+    height: 33px;
+    position: absolute;
+    display: flex;
+    top: 130px;
+    left: 150px;
+}
+.boxx #add{
+    width: 170px;
+    height: 33px;
+    position: absolute;
+    background-color: #e5e5e5;
+    border-radius: 10px;
+    justify-content: center;
+}
+.boxx #remove{
+    width: 170px;
+    height: 33px;
+    position: absolute;
+    background-color: #e5e5e5;
+    border-radius: 10px;
+    left: 210px;
+    justify-content: center;
+}
+.boxx #add h1{
+    width: 270px;
+    height: 23px;
+    position: absolute;
+    top: 3px;
+    left: 10px;
+    font-style: normal;
+    font-family: 'Jost', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 29px;
+    margin: 0px;
+}
+.boxx #remove h1{
+    width: 200px;
+    height: 23px;
+    position: absolute;
+    top: 3px;
+    left: 10px;
+    font-style: normal;
+    font-family: 'Jost', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 29px;
+    margin: 0px;
+}
+.boxx #add i{
+    width: 28px;
+    height: 25px;
+    position: absolute;
+    top: 5px;
+    left: 137px;
+    font-size: 26px;
+    margin: 0px;
+}
+.boxx #remove i{
+    width: 28px;
+    height: 25px;
+    position: absolute;
+    top: 5px;
+    left: 135px;
+    font-size: 26px;
+    margin: 0px;
+}
